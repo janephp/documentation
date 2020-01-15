@@ -5,7 +5,7 @@ Some endpoints need sometimes custom implementation that were not possible to ge
 Jane OpenAPI try to be nice with this and each specific behavior of an API call has been seprated into different methods
 which are public or protected.
 
-As an exemple you may want to encode in base64 a specific query parameter of an Endpoint. First step is to create your
+As an example you may want to encode in base64 a specific query parameter of an Endpoint. First step is to create your
 own Endpoint extending the generated one::
 
     <?php
